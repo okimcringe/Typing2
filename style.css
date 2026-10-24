@@ -1,0 +1,19 @@
+/* The indicator is a message-shaped block, so the phrase sits directly under the character's name. */
+.typing_indicator {
+    opacity: 0.85;
+    order: 9999;
+    pointer-events: none;
+}
+
+.typing_indicator .mes_text {
+    display: flex;
+    align-items: center;
+    min-height: 1.5em;
+}
+
+.typing_indicator .svg_dots {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0;
+    margin-right: 4px;
+}
